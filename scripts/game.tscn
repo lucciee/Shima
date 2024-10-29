@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://blekfnhus8rwm"]
+
+[ext_resource type="PackedScene" uid="uid://c26prxpl3r471" path="res://scripts/shima.tscn" id="1_it372"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_f6fdh"]
+
+[node name="game" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-13, 50)
+zoom = Vector2(0.6, 0.6)
+position_smoothing_enabled = true
+
+[node name="shima" parent="." instance=ExtResource("1_it372")]
+position = Vector2(-80, -23)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(1, -211)
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+position = Vector2(4, 465)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+shape = SubResource("WorldBoundaryShape2D_f6fdh")

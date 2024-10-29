@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cw6nqwpk4k7rb"]
+
+[ext_resource type="PackedScene" uid="uid://blekfnhus8rwm" path="res://scripts/game.tscn" id="1_ss0da"]
+
+[node name="game" instance=ExtResource("1_ss0da")]
+
+[node name="StaticBody2D" parent="." index="2"]
+position = Vector2(4, -206)
