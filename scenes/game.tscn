@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://blekfnhus8rwm"]
 
-[ext_resource type="PackedScene" uid="uid://c26prxpl3r471" path="res://scripts/shima.tscn" id="1_it372"]
+[ext_resource type="PackedScene" uid="uid://c26prxpl3r471" path="res://scenes/shima.tscn" id="1_it372"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_f6fdh"]
 
