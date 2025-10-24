@@ -3,7 +3,8 @@ A flappy-bird based game featuring the shimaenaga, a bird that looks like a flyi
 As the first game I've ever created, this project was very challenging but also very rewarding. Although the game is *very* simple, I got to learn a lot about kinematics in game development. 
 
 **Play the game:** https://ceceliu.itch.io/shima
-Note the web version doesn't display some graphics accurately, or at all. 
+
+Note the web version doesn't display some graphics accurately, if at all. 
 
 # Video Demo
 
